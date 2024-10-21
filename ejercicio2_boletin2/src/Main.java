@@ -28,7 +28,7 @@ public class Main {
                 System.out.println("Por favor introduce un valor con xeito fillo de puta"); //se imprime por pantalla que el valor no tiene sentido
             }
 
-        }while (correcto == false); //mientras que correcto sea falso volveremos arriba a donde empieza el bucle (donde el "do")
+        }while (!correcto); //mientras que correcto sea falso volveremos arriba a donde empieza el bucle (donde el "do")
             switch(decision) { //abrimos un switch para la variable decision
                 case 1:     //casi decision=1
                     resultado = (cantidadecartos * 1.11);       //en este caso hacemos que resultado se multiplique por 1,11 para cambiar de euros a dolares
